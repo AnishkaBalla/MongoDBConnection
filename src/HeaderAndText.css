@@ -1,0 +1,12 @@
+
+.Content{
+  margin:auto;
+  max-width:500px;
+  background-color: rgb(216, 231, 255);
+  border-radius: 10px;
+  border: 2px black solid;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  padding:15px;
+  font-family: "Alan Sans", sans-serif;
+}
