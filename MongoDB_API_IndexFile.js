@@ -5,7 +5,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 const port = 3000
-const uri="mongodb+srv://anishkaballa7_db_user:R2Tm93SZmMkEdJ3w@cluster0.ixdzowb.mongodb.net/?appName=Cluster0"
+//Hidden for sake of security, const uri=""
 const data=[{id:1,first_name:"Anishka", last_name:"Balla"},{id:2, first_name:"Anonymous1", last_name: "abc"}]
 const client = new MongoClient(uri, {
   serverApi: {
@@ -43,3 +43,4 @@ app.listen(port, () => {
 }
 
 run().catch(console.dir);
+
